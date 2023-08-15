@@ -2,7 +2,10 @@
     .container {
       max-width: 428px;
     }
-    
+    .logo {
+      padding: 24px 0;
+      margin-right: 249px;
+  }
 
     }
        
