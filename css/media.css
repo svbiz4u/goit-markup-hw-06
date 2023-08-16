@@ -1,14 +1,79 @@
 @media screen and (min-width: 428px)  {
     .container {
       max-width: 428px;
+      /*width: 408px;*/
     }
     .logo {
       padding: 24px 0;
       margin-right: 249px;
   }
 
+  .header-menu{
+ display: none;
+  }
+/*.mobile-tel{
+        font-size: 35px;
+    }*/
+    /*.mobile-social-list{
+        gap: 56px;
+    }*/
+.section-one-title{
+margin-bottom: 72px;
+        max-width: 320px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+
+}
+.section-two-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-two-item{
+font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+.section-two-item-text{
+  font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.footer-logo-p-div{
+  display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+}
+.footer-social-media{
+display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+.footer-form {
+  display: flex;
+        flex-direction: column;
+}
+
+.footer-div {
+  display: flex;
+        flex-direction: column;
+        gap: 72px;
+}
+.footer-email {
+  width: 398px;
+}
     }
        
+
     @media screen and (min-width: 768px)  {
       .container {
         max-width: 768px;
@@ -50,6 +115,167 @@
       }
     }
     
+
+ /*<!-------->*/
+.logo {
+        margin-right: 120px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-adres-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    /*.information {
+        padding: 0;
+    } */
+
+    /*.hamberger-button {
+        display: none;
+    }    */
+    
+
+    .section-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
+    }
+
+      /*  @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .section-one {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
+            }
+        }  */
+
+    .section-one-title {
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 496px;
+        width: 496px;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+    }
+
+    .section-two-item {
+        text-align: start;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .section-two-list {
+        display: flex;
+        flex-direction: row;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
+
+    .section-two-list-item {
+        width: 48%;
+    }
+
+    .section-ot-main-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 64px 24px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+    }
+
+    .customers-list-item {
+        width: calc((100% - 24px) / 4);
+    }
+
+    .footer-div {
+        width: 582px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .footer-form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-logo-p-div {
+        align-items: flex-start;
+    }
+
+    .footer-social-media {
+        align-items: flex-start;
+    }
+
+    .footer-label {
+        margin-right: 24px;
+    }
+
+    .footer-email {
+        width: 264px;
+        margin-bottom: 0;
+    }
+
+    .form-footer-subscribe {
+        text-align: start;
+    }
+
+    .form-footer-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .p-two-btn-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+   .p-two-services {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       column-gap: 24px;
+       row-gap: 72px;
+   }
+
+    .p-two-services-list{
+    width: calc((100% - 72px) /2);
+}
+
+
+
+
     @media screen and (min-width:1128px)  {
       .container {
       max-width: 1128px;
@@ -71,8 +297,182 @@
     padding-top: 120px;
     padding-bottom: 120px;
     }
+    
+
+   /*<!-------->*/
+
+   .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
+    .logo {
+        margin-right: 76px;
+    }
+
+    .header-menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-adres-list {
+        display: flex;
+        flex-direction: row;
+        padding: 24px 0;
+        gap: 40px;
+    }
+
+    /*.hamberger-button {
+        display: none;
+    }*/
+
+    .section-one {
+        margin: 0 auto;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .section-one-title {
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+    }
+
+    .section-two {
+        padding: 120px 0;
+    }
+
+    .section-two-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+
+    /*.section-two-icons {
+        display: flex;
+        gap: 24px;
+    } */
+
+    .section-two-icon {
+        width: 64px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-two-item {
+        text-align: start;
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .section-two-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .section-two-item-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .wawd{
+        display: flex;
+    }
+
+    .section-ot {
+        padding: 120px 0;
+    }
+
+
+    .customers {
+        padding: 120px 0;
+    }
+
+    .customers-list {
+        display: flex;
+        gap: 24px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .customers-list-item {
+        height: 88px;
+        width: calc((100% - 120px) / 6);
+    }
+
+    .footer-div {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .footer-logo-p-div {
+        margin-right: 120px;
+    }
+
+    .form-footer-subscribe {
+        align-items: flex-start;
+    }
+
+    .footer-social-media {
+        margin-right: 80px;
+    }
+
+    .footer-label {
+        margin-right: 24px;
+    }
+
+    .footer-email {
+        width: 264px;
+        margin-bottom: 0;
+    }
+
+    .section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+    }
+
+    .p-two-btn-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+    }
+    .p-two-services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 48px;
+    }
+    .p-two-services-list{
+    width: calc((100% - 48px) / 3);
+    }
+
+}
+
+   
+    
     @media screen and (max-width:1128px){
     .wawd {
         display: none;
