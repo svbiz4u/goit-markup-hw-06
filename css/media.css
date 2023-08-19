@@ -39,12 +39,14 @@ line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
+
 .section-two-item-text{
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+
 .footer-logo-p-div{
 display: flex;
 flex-direction: column;
@@ -56,8 +58,8 @@ margin-right: 0;
 display: flex;
 flex-direction: column;
 align-items: center;
-
 }
+
 .footer-form {
 display: flex;
 flex-direction: column;
@@ -87,9 +89,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .section-one {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
-    }
+.section-one {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
+}
 }
 
 .logo {
@@ -97,7 +99,7 @@ margin-right: 120px;
 }
 
 .memu-mobile-btn {  
-   display:none; 
+display:none; 
 }
 
 .header-menu {
@@ -275,9 +277,9 @@ padding-bottom: 188px;
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .section-one {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-one-2x.jpg);
-    }
+.section-one {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-one-2x.jpg);
+}
 }
 
 .section-one-title {
@@ -369,7 +371,7 @@ justify-content: center;
 .customers-list-item {
 height: 88px;
 width: calc((100% - 120px) / 6);
-    }
+}
 
 .footer-div {
 width: 100%;
