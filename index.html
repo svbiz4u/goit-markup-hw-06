@@ -42,35 +42,12 @@
             type="button"
             class="menu-toggle-header js-open-menu"
             aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
+            aria-controls="mobile-menu">
             <svg class="header-hamberger" width="32px" height="22px">
-              <use href="./images/icons.svg#icon-facebook1"></use>
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
             </svg>
           </button>
         </div>  
-              <!--<div class="container">
-                <button
-                  class="menu-toggle js-open-menu"
-                  aria-expanded="false"
-                  aria-controls="mobile-menu"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </button>
-              </div> -->     
-
         </div> 
     </header>
     <main>
@@ -123,13 +100,23 @@
             <div class="container">  <h2 class="wawd-title">What are we doing</h2>   
                     <ul class="wawd-list list">
                         <li class="wawd-list-item">
-                            <img  src="./images/img-2.1.jpg" alt="picture1" width="360"/>
+                            <img  
+                                srcset="
+                                ./images/img-2.1.jpg 1x,  
+                                ./images/img-2.1-2x.jpg 2x"
+                                src="./images/img-2.1.jpg" alt="picture1" width="360"/>
                         </li>
                         <li class="wawd-list-item">
-                            <img src="./images/img-2.2.jpg" alt="piture2" width="360"/>
+                            <img srcset="
+                            ./images/img-2.2.jpg 1x,  
+                            ./images/img-2.2-2x.jpg 2x"
+                            src="./images/img-2.2.jpg" alt="piture2" width="360"/>
                         </li>
                         <li class="wawd-list-item">
-                            <img src="./images/img-2.3.jpg" alt="piture3" width="360"/>
+                            <img srcset="
+                            ./images/img-2.3.jpg 1x,  
+                            ./images/img-2.3-2x.jpg 2x"
+                            src="./images/img-2.3.jpg" alt="piture3" width="360"/>
                         </li>
                     </ul>
             </div>         
@@ -139,7 +126,10 @@
                 <h2 class="our-team-title">Our Team</h2>
                 <ul class="section-ot-main-list list">
                     <li class="section-ot-list">
-                        <img  src="./images/img-3.1.jpg" alt="Mark Guerrero" width="264"/>
+                        <img   srcset="
+                        ./images/img-3.1.jpg 1x,  
+                        ./images/img-3.1-2x.jpg 2x"                        
+                        src="./images/img-3.1.jpg" alt="Mark Guerrero" width="264"/>
                         <div class="about-worker"> 
                             <h3 class="our-team-subtitle">Mark Guerrero</h3>
                             <p class="our-team-text"> Product Designer </p>
@@ -176,7 +166,10 @@
                         </div>
                     </li>
                     <li class="section-ot-list">
-                        <img src="./images/img-3.2.jpg" alt="Tom Ford"  width="264"/>
+                        <img srcset="
+                        ./images/img-3.2.jpg 1x,  
+                        ./images/img-3.2-2x.jpg 2x"
+                        src="./images/img-3.2.jpg" alt="Tom Ford"  width="264"/>
                         <div class="about-worker">
                             <h3 class="our-team-subtitle">Tom Ford</h3>
                             <p class="our-team-text"> Frontend Developer </p>
@@ -214,7 +207,10 @@
                         </div>
                     </li>
                     <li class="section-ot-list">
-                        <img src="./images/img-3.3.jpg" alt="Camila Garcia" width="264"/>
+                        <img srcset="
+                        ./images/img-3.3.jpg 1x,  
+                        ./images/img-3.3-2x.jpg 2x"
+                        src="./images/img-3.3.jpg" alt="Camila Garcia" width="264"/>
                         <div class="about-worker">
                             <h3 class="our-team-subtitle">Camila Garcia</h3>
                             <p class="our-team-text"> Marketing </p>
@@ -251,7 +247,10 @@
                         </div>
                     </li>
                     <li class="section-ot-list">
-                        <img src="./images/img-3.4.jpg" alt="Daniel Wilson" width="264"/>
+                        <img srcset="
+                        ./images/img-3.4.jpg 1x,  
+                        ./images/img-3.4-2x.jpg 2x"
+                        src="./images/img-3.4.jpg" alt="Daniel Wilson" width="264"/>
                         <div class="about-worker">
                             <h3 class="our-team-subtitle">Daniel Wilson</h3>
                             <p class="our-team-text"> UI Designer </p>

@@ -11,12 +11,7 @@ margin-right: 249px;
 .header-menu{
 display: none;
 }
-/*.mobile-tel{
-        font-size: 35px;
-    }*/
-    /*.mobile-social-list{
-        gap: 56px;
-    }*/
+
 
 .modal{
 width: 408px;
@@ -81,8 +76,6 @@ width: 398px;
 }
 } 
 
-
-
 @media screen and (min-width: 768px){
 
 .container {
@@ -91,6 +84,14 @@ max-width: 768px;
 
 .section-one {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-one {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
+    }
 }
 
 .logo {
@@ -172,20 +173,6 @@ justify-content: center;
 .customers-list-item {
 width: calc((100% - 24px)/4) 
 }
- /*<!-------->*/
-    /*.information {
-        padding: 0;
-    } */
-    /*.hamberger-button {
-        display: none;
-    }    */
-      /*  @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            .section-one {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
-            }
-        }  */
 
 .footer-div {
 width: 582px;
@@ -281,12 +268,20 @@ gap: 40px;
 .section-one {
 margin: 0 auto;
 max-width: 1440px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-one.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 padding-top: 188px;
 padding-bottom: 188px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-one {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-one-2x.jpg);
+    }
 }
 
 .section-one-title {
@@ -318,10 +313,6 @@ height: 112px;
 border-radius: 4px;
 margin-bottom: 8px;
 }
-   /*.section-two-icons {
-        display: flex;
-        gap: 24px;
-    } */
 
 .section-two-icon {
 width: 64px;
@@ -368,10 +359,6 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-/*<!-------->*/
-   /*.hamberger-button {
-        display: none;
-    }*/
 .customers {
 padding: 120px 0;
 }
@@ -442,8 +429,8 @@ width: calc((100% - 48px) / 3);
 }
 
    
-    
-@media screen and (max-width:1128px){
+ 
+/*@media screen and (max-width:1128px){
 .wawd {
 display: none;
 }
@@ -455,4 +442,4 @@ display: none;
 /*       }
 .customers {
 padding: 120px 0;
-}/*
+}/**/
