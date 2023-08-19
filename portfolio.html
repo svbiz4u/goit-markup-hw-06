@@ -37,6 +37,13 @@
                     </li> 
                 </ul>
             </address>
+            <div class="memu-mobile-btn">   
+                <button  type="button" class="memu-mobile-open-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">   
+                    <svg class="header-memu-mobile" width="32px" height="22px">    
+                    <use href="./images/icons.svg#icon-menu-mobile-btn"></use>
+                    </svg>
+                </button>
+                </div>  
         </div>
      </header>    
     <main>
@@ -220,7 +227,46 @@
                   </button>
                 </form>
             </div>
-        </div>      
+        </div>          
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="header-memu-mobile" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-close-1"></use>
+            </svg> 
+        </button>
+        <ul class="mobile-menu-list list">
+            <li> <a href="./index.html" class="mobile-navigation-studio link">Studio</a></li>
+            <li><a href="./portfolio.html" class="mobile-navigation link">Portfolio</a></li>
+            <li><a href="" class="mobile-navigation link">Contacts</a></li>
+        </ul>  
+        <ul class="list">
+            <li> <a href="tel:+110001111111" class="mobile-tel link">+11 (000) 111-11-11</a></li>
+            <li> <a href="mailto:info@devstudio.com" class="mobile-mail link">info@devstudio.com</a></li>
+        </ul>
+        <ul class="mobile-social-list list">
+            <li class="mobile-list-icons">
+                <a href="" class="mobile-icons link">
+                    <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram2"></use></svg></a>
+            </li>
+            <li class="mobile-list-icons">
+                <a href="" class="mobile-icons link"><svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter1"></use></svg></a>
+            </li>
+            <li class="mobile-list-icons">
+                <a href="" class="mobile-icons link"><svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook1"></use></svg></a>
+            </li>
+            <li class="mobile-list-icons">
+                <a href="" class="mobile-icons link"><svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin1"></use></svg></a>
+            </li>
+        </ul>
+      </div>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+      <script defer src="./js/mobile-menu.js"></script>
 </body>
 </html>

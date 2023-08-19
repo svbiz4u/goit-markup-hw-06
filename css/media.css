@@ -1,17 +1,15 @@
 @media screen and (min-width: 428px)  {
 .container {
 max-width: 428px;
-/*width: 408px;*/
 }
+
 .logo {
 padding: 24px 0;
-margin-right: 249px;
 }
 
 .header-menu{
 display: none;
 }
-
 
 .modal{
 width: 408px;
@@ -98,7 +96,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 margin-right: 120px;
 }
 
-.memu-mobile-btn {   /*hamberger-button*/
+.memu-mobile-btn {  
    display:none; 
 }
 
@@ -144,7 +142,6 @@ flex-wrap: wrap;
 }
 
 .section-two-list-item {
-/*width: 48%;*/
 width: calc((100% - 24px)/2);
 }
       
@@ -246,7 +243,6 @@ width: calc((100% - 72px) /2);
 max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
-/*max-width: 1128px;*/
 }
 
 .logo {
@@ -427,19 +423,3 @@ row-gap: 48px;
 width: calc((100% - 48px) / 3);
 }
 }
-
-   
- 
-/*@media screen and (max-width:1128px){
-.wawd {
-display: none;
-}
-
-.section-two-block {
-display: none;  
-}
-}
-/*       }
-.customers {
-padding: 120px 0;
-}/**/
