@@ -98,7 +98,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 margin-right: 120px;
 }
 
-.hamberger-button{
+.memu-mobile-btn {   /*hamberger-button*/
    display:none; 
 }
 

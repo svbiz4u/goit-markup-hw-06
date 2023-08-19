@@ -190,7 +190,7 @@ align-items: center;
 }
 
 
-.menu-toggle-header{
+.memu-mobile-open-btn{    /**menu-toggle-header*/
   padding: 24px 0;
   stroke: #2E2F42;
   display: flex;
