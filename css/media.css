@@ -79,7 +79,7 @@ width: 398px;
 @media screen and (min-width: 768px){
 
 .container {
-max-width: 768px;
+max-width: 584px;
 }
 
 .section-one {
@@ -158,8 +158,8 @@ flex-direction: row;
 gap: 64px 24px;
 align-items: center;
 justify-content: center; 
-width: 584px;
-margin: 0 auto;
+/*width: 584px;*/
+/*margin: 0 auto;*/
 }
  
 
@@ -361,7 +361,7 @@ width: calc((100% - 24px*3)/4);
 
 .section-ot-main-list{
 gap: 24px;
-width: 100%;
+/*width: 100%;*/
 }
 
 .section-ot{
