@@ -114,6 +114,10 @@ gap: 12px;
 justify-content: center;
 }
 
+.address-menu-link-link {
+font-size: 12px;
+}
+
 .section-one-title {
 margin-bottom: 48px;
 margin-left: auto;
@@ -154,8 +158,11 @@ flex-direction: row;
 gap: 64px 24px;
 align-items: center;
 justify-content: center; 
+width: 584px;
+margin: 0 auto;
 }
-    
+ 
+
 .section-ot-list{
 width: calc((100% - 24px)/2);
 }
@@ -262,6 +269,10 @@ flex-direction: row;
 padding: 24px 0;
 gap: 40px;
 }
+
+.address-menu-link-link {
+font-size: 16px;
+}
   
 .section-one {
 margin: 0 auto;
@@ -350,6 +361,7 @@ width: calc((100% - 24px*3)/4);
 
 .section-ot-main-list{
 gap: 24px;
+width: 100%;
 }
 
 .section-ot{
